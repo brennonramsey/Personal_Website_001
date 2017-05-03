@@ -1,0 +1,53 @@
+*{margin: 0;padding: 0;border: 0;}
+body{background-color: #A2A2A2;}
+div.navimg{float: left;}
+
+#container{
+  width: 450px;
+  background-color: white;
+  margin-left: auto;
+  margin-right : auto;
+}
+
+#banner{
+  width: 100%;
+  height: 100px;
+  background-color: red;
+}
+
+#navbar{
+  width: 100%;
+  height: 90px;
+  background-color: blue;
+}
+#content{
+  width: 100%;
+}
+
+#footer{
+  width: 95.75%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: white;
+  background-color: #3c3c3c;
+}
+
+.navimg{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+ /*border: 1px solid black;*/
+  color: white;
+  background-color: green;
+}
+
+.navimg:hover{
+  background-color: white;
+  -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1.3);
+}
