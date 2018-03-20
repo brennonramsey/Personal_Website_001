@@ -2,7 +2,6 @@
 	console.log("Twitter: www.twitter.com/brennonramsey");
 	console.log("Zero Rights Reserved");
 	console.log("Public Domain");
-
 //Console Commands======================================================	
 	// More text code goes here
 	//document.write('Push "A" to open Command-Line');
@@ -40,7 +39,6 @@
         	eprom();
     }
 }
-
 //Front Page Button Commands======================================================
 function myFunctionOne() { //About Me
     document.getElementById("myFrame").src = "about.html";}
@@ -52,7 +50,6 @@ function myFunctionFour() { //Contact me
     document.getElementById("myFrame").src = "contact.html";}
 function myFunctionFive() { //Home
     document.getElementById("myFrame").src = "home.html";}
-
 //Portfolio Link Commands======================================================
 //Row One-----------------------------------------------------------
 function changePictureOneOne() {
